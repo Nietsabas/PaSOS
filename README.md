@@ -6,7 +6,9 @@ Hemos conversado con adultos mayores que nos han comentado que tienen miedo a ca
 
 Estamos convencidos en que es mejor prevenir que lamentar, por lo que asumimos un compromiso con la seguridad de nuestros adultos mayores.
 
-![PaSOS](https://github.com/Nietsabas/PaSOS/blob/main/PaSOS.png)
+<p align="center">
+  <img src="https://github.com/Nietsabas/PaSOS/blob/main/PaSOS.png" alt="Texto PaSOS">
+</p>
 
 A continuación se presenta un arbol de arhcivos del repositorio, donde se muestran las diferentes versiones de los códigos.
 
