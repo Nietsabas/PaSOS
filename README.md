@@ -26,7 +26,6 @@ A continuación se presenta un arbol de arhcivos del repositorio, donde se muest
 ├── modelo.tflite
 
 ├── README.md
-
 ├── Taller_de_proyecto_Proyecto.ipynb
 
 ├── ambulanciaV1
