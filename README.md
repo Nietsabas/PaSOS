@@ -1,5 +1,38 @@
-Claro, aquí tienes los README.md para cada uno de los códigos:
+## ¿Quiénes somos?
 
+Somos un grupo de 4 estudiantes de Ingeniería Civil Eléctrica de la Universidad de Chile. Nos encontramos especializándonos en el área de Inteligencia Computacional, en donde estamos constantemente buscando formas de aplicar nuestros conocimientos en nuestro país.
+
+Hemos conversado con adultos mayores que nos han comentado que tienen miedo a caerse y que no haya nadie cerca.
+
+Estamos convencidos en que es mejor prevenir que lamentar, por lo que asumimos un compromiso con la seguridad de nuestros adultos mayores.
+
+![PaSOS](https://github.com/Nietsabas/PaSOS/PaSOS.png)
+
+A continuación se presenta un arbol de arhcivos del repositorio, donde se muestran las diferentes versiones de los códigos.
+
+
+PaSOS
+│   alarma_whatsapp.ino
+│   arbol_de_archivos.txt
+│   IngresoDatosManual.ipynb
+│   Modelo.ino
+│   modelo.tflite
+│   README.md
+│   Taller_de_proyecto_Proyecto.ipynb
+│   
+├───ambulanciaV1
+│       ambulanciaV1.ino
+│       
+├───GiroscopioV1
+│       GiroscopioV1.ino
+│       
+├───GiroscopioV2_metricas
+│       GiroscopioV2_metricas.ino
+│       
+└───GiroscopioV3_metricas
+        GiroscopioV3_metricas.ino
+        modelo_data.cc
+     
 ## ambulanciaV1.ino
 
 ### Descripción
