@@ -11,7 +11,7 @@ Estamos convencidos en que es mejor prevenir que lamentar, por lo que asumimos u
 </p>
 
 En el repositorio se tienen diferentes versiones de los códigos, donde la última versión de este es al que importa y la que se explica.
-
+---
      
 ## ambulanciaV1.ino
 
@@ -35,16 +35,16 @@ Este código es para un sistema de alarma que utiliza un botón para simular una
 ## GiroscopioV3_metricas.ino
 
 ### Descripción
-Este código utiliza un MPU6050 (giroscopio y acelerómetro) para realizar mediciones durante 2 segundos y luego calcular algunas estadísticas básicas sobre los datos recopilados. Las estadísticas incluyen el valor mínimo, máximo, promedio, varianza, curtosis y sesgo.
+Este código utiliza un GY-521 (giroscopio y acelerómetro) para realizar mediciones durante 2 segundos y luego calcular algunas estadísticas básicas sobre los datos recopilados. Las estadísticas incluyen el valor mínimo, máximo, promedio, varianza, curtosis y sesgo.
 
 ### Hardware Requerido
 - Placa Arduino compatible (p. ej. ESP32)
-- MPU6050 (giroscopio y acelerómetro) conectado al bus I2C de la placa
+- GY-521 (giroscopio y acelerómetro) conectado al bus I2C de la placa
 
 ### Cómo utilizar
-1. Conecta el MPU6050 al bus I2C de la placa Arduino.
+1. Conecta el GY-521 al bus I2C de la placa Arduino.
 2. Sube el código a la placa Arduino.
-3. Una vez cargado, el programa recopilará datos del MPU6050 durante 2 segundos.
+3. Una vez cargado, el programa recopilará datos del GY-521 durante 2 segundos.
 4. Luego calculará y mostrará las estadísticas para la aceleración en los ejes x, y, z y para la velocidad angular en los ejes x, y, z.
 
 ---
@@ -67,3 +67,21 @@ Este código activa una alarma sonora utilizando un zumbador (buzzer) cuando rec
 4. Una vez cargado, el programa estará a la espera de una señal por el puerto serie:
    - Al recibir '1', activará la alarma sonora y enviará un mensaje de WhatsApp.
    - Al recibir '0', detendrá la alarma sonora.
+
+---
+
+## Taller_de_proyecto_Proyecto.ipynb
+
+Este archivo se creó con el propósito de entrenar la arquitectura LSTM para la predicción, para luego pasarla al formato arduino de forma que sea compatible con el microcontrolados ESP32.
+
+### Modelo predictivo (Red)
+
+* La primera capa de la red es una capa LSTM con 64 unidades. La entrada de esta capa tiene una forma de (timesteps, input_dim), donde "timesteps" representa la cantidad de pasos de tiempo en cada secuencia y "input_dim" es el número de características de entrada para cada paso de tiempo.
+
+* La segunda capa es una capa densa (fully-connected) con "num_classes" unidades y función de activación softmax. Esta capa realiza la clasificación final y produce la probabilidad de pertenencia a cada clase.
+
+---
+
+## IngresoDatosManual.ipynb
+
+Este archivo se creo debido a que no se logró compatibilizar las librerias de python con el microcontrolador ESP32, por lo que se le debía pasar los resultados del giroscopio de manera manual.
