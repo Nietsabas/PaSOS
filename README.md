@@ -13,27 +13,24 @@ Estamos convencidos en que es mejor prevenir que lamentar, por lo que asumimos u
 A continuación se presenta un arbol de arhcivos del repositorio, donde se muestran las diferentes versiones de los códigos.
 
 
-PaSOS
-│   alarma_whatsapp.ino
-│   arbol_de_archivos.txt
-│   IngresoDatosManual.ipynb
-│   Modelo.ino
-│   modelo.tflite
-│   README.md
-│   Taller_de_proyecto_Proyecto.ipynb
-│   
-├───ambulanciaV1
-│       ambulanciaV1.ino
-│       
-├───GiroscopioV1
-│       GiroscopioV1.ino
-│       
-├───GiroscopioV2_metricas
-│       GiroscopioV2_metricas.ino
-│       
-└───GiroscopioV3_metricas
-        GiroscopioV3_metricas.ino
-        modelo_data.cc
+.
+├── alarma_whatsapp.ino
+├── arbol_de_archivos.txt
+├── IngresoDatosManual.ipynb
+├── Modelo.ino
+├── modelo.tflite
+├── README.md
+├── Taller_de_proyecto_Proyecto.ipynb
+├── ambulanciaV1
+│   └── ambulanciaV1.ino
+├── GiroscopioV1
+│   └── GiroscopioV1.ino
+├── GiroscopioV2_metricas
+│   └── GiroscopioV2_metricas.ino
+└── GiroscopioV3_metricas
+    ├── GiroscopioV3_metricas.ino
+    └── modelo_data.cc
+
      
 ## ambulanciaV1.ino
 
