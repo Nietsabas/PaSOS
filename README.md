@@ -10,41 +10,7 @@ Estamos convencidos en que es mejor prevenir que lamentar, por lo que asumimos u
   <img src="https://github.com/Nietsabas/PaSOS/blob/main/PaSOS.png" alt="Texto PaSOS">
 </p>
 
-A continuación se presenta un arbol de arhcivos del repositorio, donde se muestran las diferentes versiones de los códigos.
-
-
-.
-
-├── alarma_whatsapp.ino
-
-├── arbol_de_archivos.txt
-
-├── IngresoDatosManual.ipynb
-
-├── Modelo.ino
-
-├── modelo.tflite
-
-├── README.md
-├── Taller_de_proyecto_Proyecto.ipynb
-
-├── ambulanciaV1
-
-│   └── ambulanciaV1.ino
-
-├── GiroscopioV1
-
-│   └── GiroscopioV1.ino
-
-├── GiroscopioV2_metricas
-
-│   └── GiroscopioV2_metricas.ino
-
-└── GiroscopioV3_metricas
-
-    ├── GiroscopioV3_metricas.ino
-
-    └── modelo_data.cc
+En el repositorio se tienen diferentes versiones de los códigos, donde la última versión de este es al que importa y la que se explica.
 
      
 ## ambulanciaV1.ino
