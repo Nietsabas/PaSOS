@@ -72,7 +72,7 @@ Este código activa una alarma sonora utilizando un zumbador (buzzer) cuando rec
 
 ## Taller_de_proyecto_Proyecto.ipynb
 
-Este archivo se creó con el propósito de entrenar la arquitectura LSTM para la predicción, para luego pasarla al formato arduino de forma que sea compatible con el microcontrolados ESP32.
+Este archivo se creó con el propósito de entrenar la arquitectura LSTM para la predicción, para luego pasarla al formato arduino de forma que sea compatible con el microcontrolados ESP32. De aquí se obtiene el archivo modelo.ino.
 
 ### Modelo predictivo (Red)
 
